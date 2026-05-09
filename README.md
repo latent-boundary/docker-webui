@@ -7,9 +7,7 @@ This is a minimal Flask Web UI running inside Docker.
 docker build -t webui .
 docker run -p 8000:8000 webui
 
-Then open http://localhost:8000 in your browser.
-
-# docker-webui — Minimal Docker + Flask Web UI
+Then open http://localhost:8000 in your browser.# docker-webui — Minimal Docker + Flask Web UI
 
 This project is a **minimal Web UI running on Flask inside Docker**.  
 It provides a simple structure for learning, prototyping, and extending small web applications.
