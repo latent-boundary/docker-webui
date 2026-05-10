@@ -61,9 +61,42 @@ docker run -p 8000:8000 webui
 Top page with a simple Bootstrap UI.
 
 ### `/info`
-Information page describing the application.
+Technical overview page explaining the project, PIC method, and particle visualization.
 
 ---
+
+## 📘 Info Page (Technical Overview)
+
+The `/info` page provides a technical overview of this project and the
+simulation context behind the visualization.
+
+### 🔹 About This Project
+This Web UI is a minimal Docker + Flask application with a built‑in
+visualization pipeline. 
+It is designed as a foundation for HPC and simulation workflows, and can be
+extended to visualize electric fields, charge density, and phase‑space
+evolution in future PIC simulations.
+
+### 🔹 What is 1D Particle-In-Cell (PIC)?
+PIC is a numerical method used to simulate plasma by tracking particles and
+solving electric fields on a grid. 
+Particles move according to the electric field, and their charge updates the
+field again — forming a self‑consistent loop.
+
+### 🔹 Sample Particle Distribution (particles.png)
+The Info page includes a visualization of particle positions from a 1D PIC
+simulation. 
+Each dot represents a particle in configuration space. 
+This plot is commonly used to verify:
+
+- uniform particle loading 
+- boundary conditions 
+- early-time plasma behavior 
+
+This project serves as a minimal but extensible base for future HPC
+visualization pipelines.
+
+----
 
 ## 🖼️ Screenshot
 

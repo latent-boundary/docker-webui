@@ -9,6 +9,31 @@
     <h1>Info Page</h1>
     <p>This is an additional page served by Flask.</p>
     <a href="/" class="btn btn-secondary mt-3">Back</a>
+
+    <h2 class="mt-5 mb-3">About This Project</h2>
+    <p>
+    This Web UI demonstrates a minimal Docker + Flask application with a built‑in visualization pipeline.
+    It is designed as a foundation for HPC and simulation workflows.
+    This visualization pipeline can be extended to show electric fields, charge density,
+    and phase‑space evolution in future PIC simulations.
+    </p>
+
+    <h3 class="mt-4 mb-2">What is 1D Particle-In-Cell (PIC)?</h3>
+    <p>
+    PIC is a simulation method used to model plasma by tracking particles and solving electric fields on a grid.
+    Particles move according to the electric field, and their charge updates the field again — forming a self‑consistent loop.
+   </p>
+   <h3 class="mt-4 mb-2">1D PIC Sample Particle Distribution</h3>
+   <p>
+   The image below shows particle positions from a 1D PIC simulation.
+   Each dot represents a particle position in configuration space.
+   Such plots are commonly used to verify uniformity, boundary conditions,
+   and early-time plasma behavior before running full dynamics.
+   </p>
+   <img src="/static/particles.png" class="img-fluid mt-3">
+   <p class="text-muted mt-2">
+   This project serves as a minimal but extensible base for future HPC visualization pipelines.
+   </p>
 </body>
 </html>
 
