@@ -25,6 +25,7 @@ It provides a simple structure for learning, prototyping, and extending small we
 ---
 
 ## 📂 Directory Structure
+```text
 docker-webui/
 ├── Dockerfile
 ├── app.py
@@ -33,7 +34,7 @@ docker-webui/
 │   ├── index.html
 │   └── info.html
 └── README.md
-
+```
 
 ---
 
